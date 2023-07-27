@@ -34,6 +34,18 @@ const mensajeError = {
     valueMissing: "Este campo no puede quedar vacio",
     patternMismatch: "El formato requerido es de 10 digitos: (XX)XXX-XXXXX "
   }, 
+  direccion:{
+    valueMissing: "Este campo no puede quedar vacio",
+    patternMismatch: "La direccion debe contener de 10 a 40 caracteres"
+  },
+  ciudad:{
+    valueMissing: "Este campo no puede quedar vacio",
+    patternMismatch: "La ciudad debe contener de 10 a 40 caracteres"
+  },
+  estado:{
+    valueMissing: "Este campo no puede quedar vacio",
+    patternMismatch: "El estado debe contener de 10 a 40 caracteres"
+  }
 }
 const validadores = {
   nacimiento: (input) => validarNacimiento(input),
